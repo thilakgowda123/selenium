@@ -23,8 +23,8 @@ public class KeyWordExample {
 			if (browserName.equalsIgnoreCase("Firefox")) {
 				driver = new FirefoxDriver();
 				driver.manage().window().maximize();
-				Thread.sleep(3000);
-				System.out.println("Firefox browser launched");
+				//Thread.sleep(3000);
+				//System.out.println("Firefox browser launched");
 			} 
 			else if (browserName.equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
